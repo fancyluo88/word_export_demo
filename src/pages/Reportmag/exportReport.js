@@ -18,7 +18,7 @@ export const exportReport=(styles,html,reportName)=>{
 
 
 export const createScanObj=()=>{
-    let scanObj=document.createElement("scan");
+    let scanObj=document.createElement("span");
     let brObj=document.createElement("br");
     brObj.setAttribute('style','page-break-before:always;mso-break-type:section-break');
     scanObj.appendChild(brObj);
